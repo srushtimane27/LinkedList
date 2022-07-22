@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6721e084-9252-4031-8d03-948a98424299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyLinkListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Bridgelabz/INode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Bridgelabz/MyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Bridgelabz/MyLinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyLinkListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Bridgelabz/MyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Bridgelabz/MyNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Bridgelabz/MyNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,7 +51,43 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MyNodeTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Bridgelabz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyLinkListTest">
+    <configuration name="MyLinkListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.Bridgelabz.MyLinkListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkListTest.given3NumberWhenLinkedShouldPassedLinkedListShouldBeAddedToTop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.Bridgelabz.MyLinkListTest" />
+      <option name="METHOD_NAME" value="given3NumberWhenLinkedShouldPassedLinkedListShouldBeAddedToTop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedList" />
       <extension name="coverage">
@@ -89,6 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLinkListTest" />
+        <item itemvalue="JUnit.MyLinkListTest.given3NumberWhenLinkedShouldPassedLinkedListShouldBeAddedToTop" />
         <item itemvalue="JUnit.MyNodeTest" />
         <item itemvalue="JUnit.MyNodeTest.given3NumberWhenLinkedShouldPassedLinkedListTest" />
       </list>
